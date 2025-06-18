@@ -1,0 +1,30 @@
+body{
+    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3U4bHM2bWVhdG4xamI0enIyenJnMXRmNmYxNXdnYWQxcjdxbjY4NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2tTh7wB6DtL1QQvAF5/giphy.gif");
+    }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blueviolet
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+main{
+
+    
+}
+
+#sobre{
+    background-color: magenta;
+}
+
+#produtos{
+    background-color: aqua;
+}
+
+#depoimentos{
+    background-color: springgreen;
+}
