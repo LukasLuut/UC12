@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 800px) {
+    body{
+        background-color: purple;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        display: none;
+    }
+
+}
+p{
+    font-size: 36px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        background-color: lightcoral;
+        font-size: 18px;        
+    }
+    nav{
+        display: none;
+    }
+}
+
+/* Para tablets, entre 601px e 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        background-color: lightblue;
+        font-size: 22px;
+    }
+}
+
+/* Para telas grandes, acima de 1024px */
+@media (min-width: 1025px) {
+    .container {
+        background-color: lightgreen;
+        font-size: 26px;
+    }
+    .show{
+        display: none;
+    }
+}
+

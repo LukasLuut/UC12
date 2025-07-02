@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(./img/bgRepeat.jpeg);
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    margin-bottom: 2%;
+    position: fixed;
+    width: 98%;
+    
+
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+h1{
+    color: rgb(225, 225, 225);
+    background-color: rgba(0, 0, 0, 0.903);
+    width: 100%;
+    font-family: MinhaFonte, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 250px;
+    font-weight:lighter;
+    text-align: right;
+    
+    
+
+    
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+/*FONTE*/
+  @font-face {
+    font-family: 'MinhaFonte';
+    src: url(./font/Bloody_Impact.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  h1{
+    line-height: 85%;
+  }
+
+  h2{
+    font-size: 250px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(0, 0, 0, 0.903);
+    width: 100%;
+    
+    line-height: 85%;
+    -webkit-text-stroke: 0.1px rgba(255, 255, 255, 0.508);
+
+  }
+
+  
