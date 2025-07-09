@@ -1,0 +1,12 @@
+/*
+Estilo padrão para as páginas
+Variáveis 
+Define os valores de cor, fonte, tamanho
+*/
+
+:root{
+    --cor-primaria: orange;
+    --cor-secundaria: purple;
+    --cor-fonte:white;
+}
+

@@ -1,0 +1,7 @@
+/*Reseta estilos das páginas e navegadores*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

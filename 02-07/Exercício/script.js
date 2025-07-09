@@ -2,6 +2,7 @@
 const nav = document.getElementById('nav')
 const logo = document.getElementById('logo')
 const header = document.querySelector('header')
+const box= document.querySelector('.box')
 
 
 //Lógica
@@ -17,3 +18,20 @@ window.addEventListener('scroll', () => {
     }
 })
 
+/*Adicionar animação quando o elemento aparece na tela com Observer*/
+
+const observer = new IntersectionObserver((entries, observer)=>{
+
+    entries.forEach(entry=>{
+
+        if(entry.isIntersecting){
+
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+        }
+
+    })
+
+})
+
+observer.observe(box);

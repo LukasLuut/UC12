@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
 
 <!--CSS-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 
 <!--Font-->
@@ -21,7 +22,7 @@
 <body>
     <!--Cabeçalho-->
 <header>
-    <p class="fade-in">logo</p> 
+    <p class="fade-in slide-in pulse">logo</p> 
     <span class="material-symbols-outlined ham" id="logo" style="cursor: pointer;">
         menu
         </span>      
@@ -34,7 +35,7 @@
     <!--Conteúdo principal-->
 <main>
     <section class="sec-flex">
-        <div class="slide-in pulse" id="h1-sec">
+        <div data-aos="fade-left" id="h1-sec">
                 <h1>LukaS LuuT-</h1>
                 <p>Authentic photography artistic design-</p>
             </div>
@@ -53,9 +54,13 @@
                 <img class="img" src="./img/pic2.jpg" alt="">
                 <img class="img" src="./img/pic1.jpg" alt="">
             </section>
-            <section class="pics">
-                <img class="img" src="./img/pic1.jpg" alt="">
-                <img class="img" src="./img/pic2.jpg" alt="">
+            <section class="pics box" >
+                <img class="img" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" src="./img/pic1.jpg" alt="">
+                <img class="img" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="5000" src="./img/pic2.jpg" alt="">
                 <img class="img" src="./img/pic3.jpg" alt="">
                 <img class="img" src="./img/pic4.jpg" alt="">
             </section>
@@ -73,5 +78,9 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
