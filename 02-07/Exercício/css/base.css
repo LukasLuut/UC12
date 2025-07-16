@@ -53,6 +53,7 @@ h1{
 .sec-flex{
     display: flex;
     justify-content: end;
+    z-index: 10;
   }
 
 
