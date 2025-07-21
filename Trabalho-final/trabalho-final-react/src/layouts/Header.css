@@ -1,0 +1,19 @@
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.header nav a{
+    text-decoration: none;
+    color: white;
+}

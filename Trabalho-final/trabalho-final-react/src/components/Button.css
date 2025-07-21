@@ -1,0 +1,9 @@
+.btn-orange{
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 3px;
+    border-style: none;
+    height: 20%;
+    border: solid red 2px;
+}
