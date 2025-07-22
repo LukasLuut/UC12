@@ -1,0 +1,131 @@
+:root{
+    --color:#0000002a;
+}
+
+.sec-maior{
+    background-image: url(https://live.sociolib.com/nomad/wp-content/uploads/sites/15/2025/07/romantic-sunset-on-a-tropical-beach-with-palm-tree-2025-01-08-10-37-11-utc-1.webp);
+    border-radius: 20px;
+    height: 90vh;
+    margin: 8px;
+    background-position: center;    
+    color: white;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.sec-menor-esquerda{
+    width: 50%;
+    background-color: var(--color);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 6%;
+}
+
+.div-sec-esquerda{
+    width: 40%;
+    background-color: white;
+    height: 23%;
+    border-radius: 25px;
+    box-shadow: 0px -10px 0px 3px rgba(255, 255, 255, 0.342);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.div-pics-12k{
+    display: flex;
+    flex-direction: column;
+    
+    width: 50%;
+}
+
+.div-pics-12k div{
+    height: 50%;
+    width: 100%;
+    
+}
+
+.div12k{
+    color: black;
+    
+}
+
+.div-img-card{
+    padding-top:10% ;
+    position: relative;
+}
+
+#div-img-perfil {
+    border-radius: 100%;
+    border: solid white 3px;
+    height: 50%;
+    width: auto;
+    position: absolute;
+        
+}
+#div-img-perfil1 {
+    border-radius: 100%;
+    border: solid white 3px;
+    height: 50%;
+    width: auto;
+    position: absolute;
+    left: 35px;
+        
+}
+#div-img-perfil2 {
+    border-radius: 100%;
+    border: solid white 3px;
+    height: 50%;
+    width: auto;
+    position: absolute;
+    left: 70px;    
+}
+
+#div-img-perfil3 {
+    border-radius: 100%;
+    border: solid white 3px;
+    height: 50%;
+    width: 25%;
+    position: absolute;
+    left: 110px;    
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    background-color: #ededed;
+    text-align: center;
+    top: 25.5%;
+}
+
+.div-sec-esquerda img{
+    border-radius: 20px;
+    height: 90%;
+    margin: 2.5%;
+    width: 45%;
+}
+
+.sec-menor-direita{
+    width: 50%;
+    background-color: var(--color);
+    padding: 10px ; 
+       
+}
+
+.sec-menor-direita h1,p{
+    font-family: Manrope;
+    padding-left: 3%;
+}
+
+.sec-menor-direita h1{
+ font-size: 110px;
+ padding-top: 14%;
+ line-height: 1.1;
+ font-weight: 600;
+ 
+}
+
+.sec-menor-direita p{
+    font-size: 18px;
+}

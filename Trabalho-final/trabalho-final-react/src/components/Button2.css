@@ -1,22 +1,21 @@
-.btn-orange{
-    background-color: #ff7526;
-    color: rgb(255, 255, 255);
+.btn-orange2{
+    border: solid rgba(0, 0, 0, 0.096) 1px;
     font-family: Manrope, Helvetica, sans-serif;
-    font-weight: bold;
-    border-radius: 10px;
-    border-style: none;
+    font-weight: 600;
+    border-radius: 10px;    
     width: 137px;
     height: 50px;
-    padding: 12px 36px;
     font-size: 16px;
+    background-color: white;
+    padding: 12px 36px;
     cursor: pointer;
-    font-weight: 600;
+    color: black;
 
-    
 }
 
-.btn-orange:hover{
+.btn-orange2:hover{
     background-color: #E45400;
+    color: white;
     transition: all .3s;
     transition-duration: 0.3s;
     transition-timing-function: ease;
