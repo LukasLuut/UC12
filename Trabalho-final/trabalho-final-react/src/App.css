@@ -1,0 +1,27 @@
+.recommended-destination-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.recommended-destination-div h2{
+    font-family: manrope;
+    font-size: 60px;
+}
+
+.recommended-destination-div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 90px;
+    align-items: center;
+}
+
+.recommended-destination-div3{
+    display: flex;
+    justify-content: space-around;
+
+}

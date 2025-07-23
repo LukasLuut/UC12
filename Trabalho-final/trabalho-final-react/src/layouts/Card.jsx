@@ -1,11 +1,14 @@
 import React from 'react'
 import './Card.css'
+import { MdPlayArrow } from "react-icons/md";
 
 function Card() {
   return (
     <section className='sec-maior'>
         <div className='sec-menor-esquerda'>
             <div className='div-sec-esquerda'>
+                <div className='div-play'></div>
+                <MdPlayArrow className='play-arrow'/>
                 <img src="https://live.sociolib.com/nomad/wp-content/uploads/sites/15/2025/07/shifaaz-shamoon-_STLYdogRF4.webp" alt="praia" />
                 <div className='div-pics-12k'>
                     <div className='div-img-card' >

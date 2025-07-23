@@ -22,18 +22,53 @@
     align-items: end;
     justify-content: center;
     padding-bottom: 6%;
+    border-radius: 20px;
+}
+
+.sec-menor-direita{
+    border-radius: 20px;
+}
+
+.div-play{
+    
+    width: 12%;
+    height: 25%;
+    position: absolute;
+    top: 32%;
+    left: 18%;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.438);
+    animation: ripple 1s infinite ease-in;
+    
+}
+
+.play-arrow{
+    
+    background-color: rgba(255, 255, 255, 0.438);
+    top: 32%;
+    left: 18%;
+    width: 12%;
+    height: 25%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    
+
 }
 
 .div-sec-esquerda{
+    
     width: 40%;
     background-color: white;
-    height: 23%;
+    height: 24%;
     border-radius: 25px;
     box-shadow: 0px -10px 0px 3px rgba(255, 255, 255, 0.342);
     display: flex;
     flex-direction: row;
-    
+    position: relative;    
 }
+
+
 
 .div-pics-12k{
     display: flex;
@@ -81,19 +116,19 @@
     height: 50%;
     width: auto;
     position: absolute;
-    left: 70px;    
+    left: 65px;    
 }
 
 #div-img-perfil3 {
     border-radius: 100%;
     border: solid white 3px;
     height: 50%;
-    width: 25%;
+    width: 22%;
     position: absolute;
-    left: 110px;    
+    left: 100px;    
     text-decoration: none;
-    color: black;
-    font-size: 35px;
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 32px;
     background-color: #ededed;
     text-align: center;
     top: 25.5%;
@@ -129,3 +164,23 @@
 .sec-menor-direita p{
     font-size: 18px;
 }
+
+
+@keyframes ripple{
+    0%{
+        transform: scale(1);
+        opacity: 0;
+    }
+
+    50%{
+        transform: scale(1.4);
+        opacity: 1;
+        border: solid white 2px;
+    }
+
+    100%{
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
+

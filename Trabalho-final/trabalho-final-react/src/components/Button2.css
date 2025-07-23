@@ -3,13 +3,14 @@
     font-family: Manrope, Helvetica, sans-serif;
     font-weight: 600;
     border-radius: 10px;    
-    width: 137px;
+    width: 140px;
     height: 50px;
     font-size: 16px;
     background-color: white;
     padding: 12px 36px;
     cursor: pointer;
     color: black;
+    text-wrap: nowrap;
 
 }
 
