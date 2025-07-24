@@ -1,10 +1,9 @@
 .recommended-destination-div{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     padding-top: 60px;
     padding-bottom: 60px;
-
+    margin: 3.5% 16%;
 }
 
 .recommended-destination-div h2{
@@ -15,13 +14,40 @@
 .recommended-destination-div2{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 90px;
     align-items: center;
 }
 
-.recommended-destination-div3{
+.banners{
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
+
+.section2{
+    font-family: manrope;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;    
+    width: 100%;
+    border: red solid 2px;
+}
+
+.div-section2{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.section2 h2{
+    font-size: 56px;
+    font-weight: 550;
+    color: #1b1917;
+}
+
+.section2 p{
+    color: #6c6c6c;    
+}
+
