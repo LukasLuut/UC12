@@ -1,0 +1,42 @@
+.body{
+    width: 310px;
+    height: 260px;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: manrope;
+    background-color: #fafafa;
+    border: #6c6c6c2c solid 1px;
+}
+
+.body h2{
+    font-size: 24px;
+    margin: 8px 0 12px;
+    font-weight: 550;
+}
+
+.header{
+    justify-content: space-between;
+}
+
+.header p{
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.icon{
+    color: orange;
+    border-radius: 50%;
+    background-color: #fafafa;
+    width: 66px;
+    height: 66px;
+    padding: 22px;
+    border: #ededed solid 1px;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 450;
+    color: #6c6c6c;
+    line-height: 1.5;
+}
+

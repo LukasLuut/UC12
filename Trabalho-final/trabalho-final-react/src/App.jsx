@@ -3,6 +3,8 @@ import Header from './layouts/Header'
 import Card from './layouts/Card'
 import Button2 from './components/Button2'
 import Banner from './components/Banner'
+import LittleCard from './components/LittleCard'
+import Banner2 from './layouts/Banner2'
 
 
 function App() {
@@ -24,16 +26,22 @@ function App() {
             <Banner></Banner>
           </div>
         </section>
-        <section className='section2'>
-          <div className='div-section2 section2'>
+        <section className='section2' id='section2-1'>
+          <div className='div-section2'>
             <h2>Elevate Your Epic <br></br> Adventures</h2>
             <p>We are a travel agency that specializes <br></br> in customizing trips according to your <br></br> preferences, needs, and desires</p>
           </div>
         </section>
         <section className='section3'>
-          
-          <img src="https://live.sociolib.com/nomad/wp-content/uploads/sites/15/2025/07/exotic-tropical-seascape-with-palm-tree-jetty-pie-2024-10-18-08-01-58-utc.webp" alt="" />
+          <section className='div-cards'>
+            <LittleCard></LittleCard>
+            <LittleCard></LittleCard>
+            <LittleCard></LittleCard>
+            <LittleCard></LittleCard>
+          </section>
+          <div className='bgPraia'></div>          
         </section>
+        <Banner2></Banner2>
       </main>
 
     </>
