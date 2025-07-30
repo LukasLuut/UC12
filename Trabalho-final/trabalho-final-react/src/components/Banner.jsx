@@ -8,7 +8,7 @@ function Banner() {
     <div className='div-banner'>
         <div className='div-country'>
           <img src="https://s.w.org/images/core/emoji/16.0.1/svg/1f1f0-1f1ff.svg" alt="bandeira do Kazakhstan" />
-          <p>Kazakhstan</p>
+          <p className='details'>Kazakhstan</p>
         </div>
         <img src="https://live.sociolib.com/nomad/wp-content/uploads/sites/15/2025/07/colin-watts-M1ObxvsWVhY.webp" alt="" />
         <div>   
@@ -16,23 +16,23 @@ function Banner() {
             <p className='desc-destination'>A Unique Seaside Escape in Central Asia</p>
             <div className='detail'>
                 <div className='p-icon'>
-                  <img src="src/img/calendario.png" alt="ícone de um calendário" />
-                  <p> 12 jun</p>
+                  <img src="/src/img/calendario.png" alt="ícone de um calendário" />
+                  <p className='details'> 12 jun</p>
                 </div>
-                <p>|</p>
+                <p className='details'>|</p>
                 <div className='p-icon'>
-                  <img src="src/img/estrela.png" alt="" />
-                  <p> 5.0 Rating </p>                  
+                  <img src="/src/img/estrela.png" alt="" />
+                  <p className='details'> 5.0 Rating </p>                  
                 </div>
-                <p>|</p>
+                <p className='details'>|</p>
                 <div className='p-icon'>
-                  <img src="src/img/guarda-sol.png" alt="" />
-                  <p> Bitch </p>
+                  <img src="/src/img/guarda-sol.png" alt="" />
+                  <p className='details'> Bitch </p>
                 </div>
                 
             </div>
             <div className='values'>
-              <p>$2.550 <br /><span>7 days package</span></p>
+              <p className='black'>$2.550 <br /><span>7 days package</span></p>
               <Button2 texto='Book Now'></Button2>
             </div>
         </div>
